@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке незмінний об'єкт в Java?</text>
+        <options>
+            <option>Об'єкт, який не може бути змінений або модифікований після створення.</option>
+            <option>Об'єкт, який може використовуватися лише одним потоком одночасно.</option>
+            <option>Об'єкт, який завжди має значення null.</option>
+            <option>Об'єкт із змінною розмірністю.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Чому корисні незмінні об'єкти в Java?</text>
+        <options>
+            <option>Вони роблять код складнішим та важчим для обслуговування.</option>
+            <option>Вони дозволяють легко модифікувати стан об'єкта.</option>
+            <option>Вони забезпечують потокову безпеку та роблять код більш передбачуваним.</option>
+            <option>Вони можуть бути модифіковані одночасно декількома потоками без проблем.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Який клас в Java представляє незмінний рядок?</text>
+        <options>
+            <option>MutableString</option>
+            <option>StringBuilder</option>
+            <option>StringBuffer</option>
+            <option>String</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна об'єднати два рядки в Java без створення нового об'єкта рядка?</text>
+        <options>
+            <option>За допомогою оператора `+`.</option>
+            <option>За допомогою методу `concat()` класу String.</option>
+            <option>За допомогою методу `append()` класу StringBuilder.</option>
+            <option>Неможливо об'єднати рядки без створення нового об'єкта.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Яка перевага використання StringBuilder над String для маніпулювання рядками?</text>
+        <options>
+            <option>StringBuilder є більш ефективним за рахунок використання менше пам'яті.</option>
+            <option>StringBuilder дозволяє легше витягувати підрядки.</option>
+            <option>StringBuilder є незмінним.</option>
+            <option>StringBuilder є змінним та ефективним для частого модифікування рядків.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Який із наведених класів є прикладом незмінного класу в Java?</text>
+        <options>
+            <option>java.util.ArrayList</option>
+            <option>java.util.HashMap</option>
+            <option>java.lang.String</option>
+            <option>java.util.LinkedList</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що станеться, коли ви викликаєте метод `toUpperCase()` для об'єкта рядка в Java?</text>
+        <options>
+            <option>Оригінальний рядок зміниться на верхній регістр букв.</option>
+            <option>Буде створено новий рядок з буквами у верхньому регістрі.</option>
+            <option>Виникне виключення.</option>
+            <option>Рядок перетвориться у нижній регістр.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Яка основна перевага використання незмінних об'єктів для кешування в Java?</text>
+        <options>
+            <option>Вони використовують менше пам'яті.</option>
+            <option>Їх можна модифікувати без обмежень.</option>
+            <option>Вони є потокобезпечними та можуть безпечно використовуватися декількома потоками.</option>
+            <option>Вони можуть легко перетворюватися у змінні об'єкти.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Який метод використовується для отримання довжини рядка в Java?</text>
+        <options>
+            <option>length()</option>
+            <option>size()</option>
+            <option>count()</option>
+            <option>sizeOf()</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Яка мета зробити об'єкт незмінним в Java?</text>
+        <options>
+            <option>Зробити його більш легким для модифікації.</option>
+            <option>Дозволити одночасну модифікацію об'єкта.</option>
+            <option>Забезпечити незмінність його стану після створення для потокової безпеки та передбачуваності.</option>
+            <option>Зробити його менш ефективним за рахунок пам'яті.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

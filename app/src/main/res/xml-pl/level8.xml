@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Do czego służą interfejsy w języku Java?</text>
+        <options>
+            <option>Do tworzenia obiektów klas.</option>
+            <option>Do dziedziczenia po klasach nadrzędnych.</option>
+            <option>Do deklarowania metod, które muszą zostać zaimplementowane przez klasy.</option>
+            <option>Do definiowania zmiennych struktur danych.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka jest główna różnica między interfejsem a klasą w języku Java?</text>
+        <options>
+            <option>Interfejsy mogą mieć konstruktory, a klasy nie.</option>
+            <option>Klasy mogą mieć statyczne metody, a interfejsy nie.</option>
+            <option>Interfejsy mogą zawierać tylko metody abstrakcyjne, podczas gdy klasy mogą zawierać zaimplementowane metody.</option>
+            <option>Klasy nie mogą dziedziczyć po interfejsach.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak oznacza się interfejsy w języku Java?</text>
+        <options>
+            <option>Za pomocą słowa kluczowego "interface".</option>
+            <option>Za pomocą słowa kluczowego "class".</option>
+            <option>Za pomocą słowa kluczowego "implements".</option>
+            <option>Za pomocą słowa kluczowego "extends".</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Co to jest wyliczenie (enum) w języku Java?</text>
+        <options>
+            <option>To specjalny rodzaj klasy, która nie może zawierać metod.</option>
+            <option>To specjalna kolekcja obiektów.</option>
+            <option>To specjalny rodzaj interfejsu służący do definiowania wyliczeń.</option>
+            <option>To specjalny rodzaj tablicy.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak deklaruje się i używa wyliczeń (enum) w języku Java?</text>
+        <options>
+            <option>Za pomocą słowa kluczowego "enum", można deklarować stałe obiekty wyliczenia.</option>
+            <option>Za pomocą słowa kluczowego "class", można deklarować stałe obiekty wyliczenia.</option>
+            <option>Za pomocą słowa kluczowego "interface", można deklarować stałe obiekty wyliczenia.</option>
+            <option>Za pomocą słowa kluczowego "enum", można deklarować zmienne obiekty wyliczenia.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są zalety korzystania z wyliczeń (enum) w języku Java?</text>
+        <options>
+            <option>Umożliwiają dodawanie metod do obiektów wyliczenia.</option>
+            <option>Zapewniają większą elastyczność w porównaniu do zwykłych klas.</option>
+            <option>Gwarantują bezpieczeństwo typów podczas kompilacji i mogą być używane w wyrażeniach switch.</option>
+            <option>Mogą zawierać dowolną liczbę wartości.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można uzyskać wszystkie wartości wyliczenia (enum) w języku Java?</text>
+        <options>
+            <option>Korzystając z metody `values()`.</option>
+            <option>Korzystając z metody `allValues()`.</option>
+            <option>Korzystając z metody `enumerate()`.</option>
+            <option>Korzystając z metody `list()`.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie metody można zdefiniować w interfejsie w języku Java?</text>
+        <options>
+            <option>Tylko metody abstrakcyjne.</option>
+            <option>Tylko metody statyczne.</option>
+            <option>Zarówno metody abstrakcyjne, jak i metody statyczne.</option>
+            <option>Tylko metody z implementacją (metody domyślne).</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak klasa może implementować więcej niż jeden interfejs w języku Java?</text>
+        <options>
+            <option>Korzystając z słowa kluczowego "implements" i wymieniając wszystkie interfejsy oddzielone przecinkami.</option>
+            <option>Korzystając z słowa kluczowego "extends" i wymieniając wszystkie interfejsy oddzielone przecinkami.</option>
+            <option>To niemożliwe, klasa może implementować tylko jeden interfejs.</option>
+            <option>Korzystając z słowa kluczowego "implements" i powtarzając nazwę interfejsu w kodzie.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Dlaczego wyliczenia (enum) nie mogą być rozszerzane w języku Java?</text>
+        <options>
+            <option>Ponieważ wyliczenia dziedziczą już po klasie Enum i nie mogą mieć innych nadklas.</option>
+            <option>To możliwe, ale rozszerzający wyliczenia muszą również być wyliczeniem.</option>
+            <option>To możliwe, ale rozszerzający wyliczenia muszą być klasami abstrakcyjnymi.</option>
+            <option>Wyliczenia mogą być rozszerzane, ale nie jest to zalecane ze względu na złożoność kodu.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

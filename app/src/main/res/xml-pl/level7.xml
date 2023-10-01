@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest niemutowalny obiekt w Javie?</text>
+        <options>
+            <option>Obiekt, który nie może być zmieniany lub modyfikowany po utworzeniu.</option>
+            <option>Obiekt, który może być używany tylko przez jeden wątek naraz.</option>
+            <option>Obiekt, który zawsze ma wartość null.</option>
+            <option>Obiekt o dynamicznym rozmiarze.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Do czego służą niemutowalne obiekty w Javie?</text>
+        <options>
+            <option>Robią kod bardziej skomplikowanym i trudnym do utrzymania.</option>
+            <option>Umożliwiają łatwą modyfikację stanu obiektu.</option>
+            <option>Zapewniają bezpieczeństwo wątków i czynią kod bardziej przewidywalnym.</option>
+            <option>Mogą być modyfikowane równocześnie przez wiele wątków bez problemów.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Która klasa w Javie reprezentuje niemutowalny ciąg znaków?</text>
+        <options>
+            <option>MutableString</option>
+            <option>StringBuilder</option>
+            <option>StringBuffer</option>
+            <option>String</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można połączyć dwa ciągi znaków w Javie bez tworzenia nowego obiektu ciągu znaków?</text>
+        <options>
+            <option>Używając operatora `+`.</option>
+            <option>Używając metody `concat()` klasy String.</option>
+            <option>Używając metody `append()` klasy StringBuilder.</option>
+            <option>Nie można połączyć ciągów znaków bez tworzenia nowego obiektu.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka jest korzyść z korzystania z klasy StringBuilder zamiast String do manipulowania ciągami znaków?</text>
+        <options>
+            <option>StringBuilder jest bardziej wydajny pod względem pamięci.</option>
+            <option>StringBuilder umożliwia łatwiejsze wyodrębnianie podciągów.</option>
+            <option>StringBuilder jest niemutowalny.</option>
+            <option>StringBuilder jest mutowalny i bardziej wydajny przy częstych modyfikacjach ciągów znaków.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Która z wymienionych klas jest przykładem niemutowalnej klasy w Javie?</text>
+        <options>
+            <option>java.util.ArrayList</option>
+            <option>java.util.HashMap</option>
+            <option>java.lang.String</option>
+            <option>java.util.LinkedList</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Co się dzieje, gdy wywołasz metodę `toUpperCase()` na obiekcie klasy String w Javie?</text>
+        <options>
+            <option>Oryginalny ciąg zostaje zmieniony na wielkie litery.</option>
+            <option>Tworzony jest nowy ciąg znaków z literami w wielkich literach.</option>
+            <option>Występuje wyjątek.</option>
+            <option>Ciąg znaków zostaje przekształcony w małe litery.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka jest główna zaleta korzystania z niemutowalnych obiektów do celów buforowania w Javie?</text>
+        <options>
+            <option>Są bardziej pamięciooszczędne.</option>
+            <option>Można je modyfikować bez ograniczeń.</option>
+            <option>Są bezpieczne wątkowo i można je bezpiecznie udostępniać wielu wątkom.</option>
+            <option>Łatwo można je przekształcić w mutowalne obiekty.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka metoda jest używana do uzyskania długości ciągu znaków w Javie?</text>
+        <options>
+            <option>length()</option>
+            <option>size()</option>
+            <option>count()</option>
+            <option>sizeOf()</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaki jest cel tworzenia niemutowalnego obiektu w Javie?</text>
+        <options>
+            <option>Aby ułatwić jego modyfikację.</option>
+            <option>Aby umożliwić jednoczesne modyfikacje obiektu.</option>
+            <option>Aby zapewnić, że jego stan nie może być zmieniony po utworzeniu w celu bezpieczeństwa wątkowego i przewidywalności.</option>
+            <option>Aby uczynić go mniej wydajnym pod względem pamięci.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

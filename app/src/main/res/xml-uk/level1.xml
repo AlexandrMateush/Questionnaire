@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Яким чином визначити, чи є об'єкт null в Java?</text>
+        <options>
+            <option>object.isNull()</option>
+            <option>object.equals(null)</option>
+            <option>object == null</option>
+            <option>object.checkNull()</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке Git?</text>
+        <options>
+            <option>Мова програмування</option>
+            <option>Система керування версіями</option>
+            <option>Інтернет-браузер</option>
+            <option>Веб-фреймворк</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити новий репозиторій Git?</text>
+        <options>
+            <option>git create</option>
+            <option>git init</option>
+            <option>git new</option>
+            <option>git start</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке Java Virtual Machine (JVM)?</text>
+        <options>
+            <option>Віртуальний інтерфейс для Java-програм</option>
+            <option>Середовище виконання Java-програм</option>
+            <option>Графічний інтерфейс Java</option>
+            <option>Java Machine Learning Library</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні типи даних в Java?</text>
+        <options>
+            <option>int, float, double, char</option>
+            <option>string, boolean, array, object</option>
+            <option>byte, short, long, boolean</option>
+            <option>integer, real, character, boolean</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке "коміт" в Git?</text>
+        <options>
+            <option>Відгалуження гілки</option>
+            <option>Злиття гілок</option>
+            <option>Зміни в коді, які готові для збереження</option>
+            <option>Версія програми</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Як встановити значення змінної в Java?</text>
+        <options>
+            <option>setValue()</option>
+            <option>set()</option>
+            <option>assign()</option>
+            <option>=</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні переваги використання Git для управління версіями коду?</text>
+        <options>
+            <option>Зручність роботи з файлами</option>
+            <option>Спільна робота над проектом</option>
+            <option>Збереження історії змін</option>
+            <option>Вбудована IDE</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити нову гілку (branch) в Git?</text>
+        <options>
+            <option>git make-branch</option>
+            <option>git new-branch</option>
+            <option>git branch create</option>
+            <option>git checkout -b</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">Як вивести текст на консоль в мові Java?</text>
+        <options>
+            <option>System.print("Hello, World!");</option>
+            <option>print("Hello, World!");</option>
+            <option>System.out.println("Hello, World!");</option>
+            <option>console.log("Hello, World!");</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

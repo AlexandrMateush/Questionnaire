@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the basic data types in Java?</text>
+        <options>
+            <option>int, float, string, boolean</option>
+            <option>byte, short, long, char</option>
+            <option>int, double, boolean, array</option>
+            <option>string, float, byte, char</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to declare a variable to store an integer in Java?</text>
+        <options>
+            <option>int x = 42;</option>
+            <option>float x = 42;</option>
+            <option>String x = "42";</option>
+            <option>boolean x = true;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the basic arithmetic operators in Java?</text>
+        <options>
+            <option>+, -, *, /</option>
+            <option>%, ^, ++, --</option>
+            <option> |, ~, </option>
+            <option>=, ==, ===, !=</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to set the value of a boolean variable in Java?</text>
+        <options>
+            <option>true = 1;</option>
+            <option>false = 0;</option>
+            <option>boolean x = true;</option>
+            <option>bool x = 1;</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the keywords used to declare variables in Java?</text>
+        <options>
+            <option>var, let, const</option>
+            <option>int, string, double</option>
+            <option>declare, variable, assign</option>
+            <option>public, private, protected</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to use the if statement to check a condition in Java?</text>
+        <options>
+            <option>if (condition) { /* code */ }</option>
+            <option>case condition: /* code */ break;</option>
+            <option>while (condition) { /* code */ }</option>
+            <option>for (condition) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which operators are used for incrementing and decrementing a variable in Java?</text>
+        <options>
+            <option>x = x + 1; x = x - 1;</option>
+            <option>x++; x--;</option>
+            <option>x += 1; x -= 1;</option>
+            <option>x = x * 2; x = x / 2;</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">>What are the main data types for storing floating-point numbers in Java?</text>
+        <options>
+            <option>float and int</option>
+            <option>float, double, and decimal</option>
+            <option>real, double, long</option>
+            <option>int, double, char</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which keywords are used to define the scope of variables in Java?</text>
+        <options>
+            <option>public, private, protected</option>
+            <option>local, global, static</option>
+            <option>var, let, const</option>
+            <option>import, export, package</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which data types in Java are used for representing characters and strings?</text>
+        <options>
+            <option>char and int</option>
+            <option>string and boolean</option>
+            <option>char and string</option>
+            <option>byte and short</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

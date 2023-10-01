@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">How to check if an object is null in Java?</text>
+        <options>
+            <option>object.isNull()</option>
+            <option>object.equals(null)</option>
+            <option>object == null</option>
+            <option>object.checkNull()</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">What is Git?</text>
+        <options>
+            <option>Programming language</option>
+            <option>Version control system</option>
+            <option>Web browser</option>
+            <option>Machine learning framework</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">How to create a new Git repository?</text>
+        <options>
+            <option>git create</option>
+            <option>git init</option>
+            <option>git new</option>
+            <option>git start</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">What is Java Virtual Machine (JVM)?</text>
+        <options>
+            <option>Virtual interface for Java programs</option>
+            <option>Execution environment for Java programs</option>
+            <option>Java graphical interface</option>
+            <option>Java machine learning library</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the basic data types in Java?</text>
+        <options>
+            <option>int, float, double, char</option>
+            <option>string, boolean, array, object</option>
+            <option>byte, short, long, boolean</option>
+            <option>integer, real, character, boolean</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">What is a "commit" in Git?</text>
+        <options>
+            <option>Branching of branches</option>
+            <option>Merging of branches</option>
+            <option>Changes in code ready for saving</option>
+            <option>Software version</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">How to set the value of a variable in Java?</text>
+        <options>
+            <option>setValue()</option>
+            <option>set()</option>
+            <option>assign()</option>
+            <option>=</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the main advantages of using Git for version control?</text>
+        <options>
+            <option>Convenient file management</option>
+            <option>Collaborative project work</option>
+            <option>Maintaining a history of changes</option>
+            <option>Built-in development environment (IDE)</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">How to create a new branch in Git?</text>
+        <options>
+            <option>git make-branch</option>
+            <option>git new-branch</option>
+            <option>git branch create</option>
+            <option>git checkout -b</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+    <question>
+        <text android:textColor="#FFFFFFFF">How to print text to the console in Java?</text>
+        <options>
+            <option>System.print("Hello, World!");</option>
+            <option>print("Hello, World!");</option>
+            <option>System.out.println("Hello, World!");</option>
+            <option>console.log("Hello, World!");</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

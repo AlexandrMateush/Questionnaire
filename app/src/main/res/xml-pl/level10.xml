@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest strumień wejścia (input stream) w kontekście języka Java?</text>
+        <options>
+            <option>To strumień, który wypisuje dane na konsolę.</option>
+            <option>To strumień, który przyjmuje dane z konsoli.</option>
+            <option>To strumień, który odczytuje dane z pliku lub innych źródeł.</option>
+            <option>To strumień, który jest używany do wizualnego wyświetlania grafiki.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak utworzyć obiekt FileOutputStream do zapisywania danych do pliku w języku Java?</text>
+        <options>
+            <option>FileOutputStream fileOut = new FileOutputStream("plik.txt");</option>
+            <option>FileOutputStream fileOut = new FileOutputStream();</option>
+            <option>FileOutputStream fileOut = new FileInputStream("plik.txt");</option>
+            <option>FileOutputStream fileOut = new FileInputStream();</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można odczytać dane z pliku w języku Java za pomocą strumienia wejściowego (input stream)?</text>
+        <options>
+            <option>Używając metody read() strumienia wejściowego.</option>
+            <option>Używając metody write() strumienia wejściowego.</option>
+            <option>Używając metody read() strumienia wyjściowego.</option>
+            <option>Używając metody write() strumienia wyjściowego.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można zapisać dane do pliku w języku Java za pomocą strumienia wyjściowego (output stream)?</text>
+        <options>
+            <option>Używając metody read() strumienia wejściowego.</option>
+            <option>Używając metody write() strumienia wejściowego.</option>
+            <option>Używając metody read() strumienia wyjściowego.</option>
+            <option>Używając metody write() strumienia wyjściowego.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można zamknąć strumień wejścia-wyjścia (input-output stream) w języku Java?</text>
+        <options>
+            <option>Używając metody close() strumienia.</option>
+            <option>Używając metody open() strumienia.</option>
+            <option>Nie ma potrzeby zamykania strumienia w języku Java.</option>
+            <option>Używając metody read() lub write() strumienia.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym są buforowane strumienie (buffered streams) w języku Java?</text>
+        <options>
+            <option>To strumienie, które tworzą bufor pamięci do przechowywania danych.</option>
+            <option>To strumienie, które automatycznie otwierają pliki do odczytu.</option>
+            <option>To strumienie, które wymagają podania rozmiaru pliku przed zapisem.</option>
+            <option>To strumienie, które nie wymagają buforowania danych.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można sprawdzić istnienie pliku w języku Java przed jego otwarciem?</text>
+        <options>
+            <option>Używając metody checkFile() klasy File.</option>
+            <option>Używając metody exists() klasy File.</option>
+            <option>Nie można sprawdzić istnienia pliku przed otwarciem w języku Java.</option>
+            <option>Używając metody validateFile() klasy File.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można odczytać tekstowy plik wiersz po wierszu w języku Java?</text>
+        <options>
+            <option>Używając metody readLine() klasy BufferedReader.</option>
+            <option>Używając metody read() klasy FileReader.</option>
+            <option>Używając metody parseLine() klasy String.</option>
+            <option>Używając metody getLine() klasy Scanner.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka jest główna różnica między FileInputStream a FileReader w języku Java?</text>
+        <options>
+            <option>FileInputStream służy do czytania plików tekstowych, a FileReader do binarnych.</option>
+            <option>FileInputStream używa do czytania znaków, a FileReader bajtów.</option>
+            <option>FileInputStream działa na bajtach, a FileReader na znakach w kodowaniu UTF-8.</option>
+            <option>Nie ma różnicy między FileInputStream a FileReader.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można zapisać tekstowy plik w języku Java za pomocą BufferedWriter?</text>
+        <options>
+            <option>Używając metody writeText() klasy BufferedWriter.</option>
+            <option>Używając metody print() klasy PrintWriter.</option>
+            <option>Używając metody append() klasy FileWriter.</option>
+            <option>Używając metody write() klasy BufferedWriter.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+</questions>

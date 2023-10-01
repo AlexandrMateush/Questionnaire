@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest programowanie obiektowe (OOP)?</text>
+        <options>
+            <option>Paradygmat programowania oparty na obiektach i klasach.</option>
+            <option>Metoda programowania oparta tylko na funkcjach.</option>
+            <option>Model programowania, który wyklucza użycie zmiennych.</option>
+            <option>Metoda programowania oparta tylko na liczbach.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest klasa w programowaniu i do czego służy?</text>
+        <options>
+            <option>Klasa to konkretne obiekty w programie.</option>
+            <option>Klasa to zmienna przechowująca dane.</option>
+            <option>Klasa to szablon do tworzenia obiektów i zawiera opis ich struktury i zachowania.</option>
+            <option>Klasa to funkcja wykonująca określoną operację.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak stworzyć obiekt klasy w Javie?</text>
+        <options>
+            <option>object = new Class();</option>
+            <option>Class obj = new Class();</option>
+            <option>Class.newObject();</option>
+            <option>new Class();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak nazywają się funkcje zdefiniowane w klasie i używane do wykonywania określonych operacji na obiektach tej klasy?</text>
+        <options>
+            <option>Metody</option>
+            <option>Funkcje</option>
+            <option>Procedury</option>
+            <option>Operatory</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie słowa kluczowe są używane do deklarowania metod i zmiennych klasy w Javie?</text>
+        <options>
+            <option>public, private, protected</option>
+            <option>function, variable, class</option>
+            <option>method, attribute, class</option>
+            <option>void, int, string</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zdefiniować konstruktor klasy w Javie?</text>
+        <options>
+            <option>constructor ClassName() { /* kod */ }</option>
+            <option>init() { /* kod */ }</option>
+            <option>void ClassName() { /* kod */ }</option>
+            <option>Class.create() { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest dziedziczenie klas w OOP?</text>
+        <options>
+            <option>Dziedziczenie polega na tworzeniu nowej klasy na podstawie istniejącej klasy z dodaniem lub zmianą funkcjonalności.</option>
+            <option>Dziedziczenie polega na usuwaniu klasy z systemu.</option>
+            <option>Dziedziczenie polega na tworzeniu kopii obiektu.</option>
+            <option>Dziedziczenie polega na zmianie nazwy klasy.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak oznaczyć klasę, która nie może być dziedziczona w Javie?</text>
+        <options>
+            <option>final class ClassName { /* kod */ }</option>
+            <option>sealed class ClassName { /* kod */ }</option>
+            <option>static class ClassName { /* kod */ }</option>
+            <option>inheritance-disabled class ClassName { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zdefiniować abstrakcyjną metodę w Javie?</text>
+        <options>
+            <option>abstract void methodName();</option>
+            <option>void abstract methodName();</option>
+            <option>void methodName() abstract;</option>
+            <option>methodName() { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zdefiniować statyczną metodę klasy w Javie?</text>
+        <options>
+            <option>static void methodName() { /* kod */ }</option>
+            <option>void static methodName() { /* kod */ }</option>
+            <option>methodName() static { /* kod */ }</option>
+            <option>void methodName() { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

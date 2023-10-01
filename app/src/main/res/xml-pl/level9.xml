@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym są generiki (generics) w języku Java?</text>
+        <options>
+            <option>Wbudowany pakiet z interfejsami graficznymi.</option>
+            <option>Mechanizm do tworzenia ogólnych (parametryzowanych) klas i metod.</option>
+            <option>Język programowania do pracy z dużymi zbiorami danych.</option>
+            <option>Specjalny typ zmiennych do przechowywania daty i czasu.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak oznacza się generiki podczas deklarowania klasy w Java?</text>
+        <options>
+            <option>Za pomocą gwiazdki (*).</option>
+            <option>Za pomocą symbolu procenta (%).</option>
+            <option>Za pomocą nawiasów trójkątnych ( >).</option>
+            <option>Za pomocą gwiazdki i nawiasów trójkątnych (* >).</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Do czego służą parametryzowane typy (generic types) w Java?</text>
+        <options>
+            <option>Do przechowywania tekstowych ciągów znaków.</option>
+            <option>Do przechowywania liczb.</option>
+            <option>Do tworzenia klas i metod, które można używać z różnymi typami danych.</option>
+            <option>Do tworzenia zmiennych, które można zmieniać w trakcie wykonywania programu.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można zdefiniować parametryzowany metodę w Javie?</text>
+        <options>
+            <option>Dodać słowo kluczowe "parametryzowany" przed deklaracją metody.</option>
+            <option>Używać gwiazdki (*) przed nazwą metody.</option>
+            <option>Używać parametru typu przed typem zwracanym metody.</option>
+            <option>Definiować metodę tak samo jak zwykłą, bez dodatkowych znaczników.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można utworzyć listę (List) przy użyciu generików w Javie?</text>
+        <options>
+            <option>List myList = new List();</option>
+            <option>ListString> myList = new ListString>();</option>
+            <option>ListString> myList = new ArrayListString>();</option>
+            <option>List myList = new ArrayList();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można dodać element do kolekcji (Collection) w Javie?</text>
+        <options>
+            <option>Używając metody add() kolekcji.</option>
+            <option>Używając słowa kluczowego "insert".</option>
+            <option>Zmieniając rozmiar kolekcji bezpośrednio.</option>
+            <option>Używając metody append() kolekcji.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można usunąć element z kolekcji (Collection) w Javie?</text>
+        <options>
+            <option>Używając metody remove() kolekcji.</option>
+            <option>Używając słowa kluczowego "delete".</option>
+            <option>Zmieniając rozmiar kolekcji bezpośrednio.</option>
+            <option>Używając metody clear() kolekcji.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można sprawdzić, czy element istnieje w kolekcji (Collection) w Javie?</text>
+        <options>
+            <option>Używając metody check() kolekcji.</option>
+            <option>Używając słowa kluczowego "contains".</option>
+            <option>Sprawdzenie rozmiaru kolekcji i porównanie z zerem.</option>
+            <option>Używając metody find() kolekcji.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można iterować (przechodzić) przez elementy kolekcji (Collection) w Javie?</text>
+        <options>
+            <option>Używając słowa kluczowego "loop".</option>
+            <option>Używając konstrukcji "for each".</option>
+            <option>Używając konstrukcji "if else".</option>
+            <option>Zawsze należy używać pętli "while".</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można określić rozmiar kolekcji (Collection) w Javie?</text>
+        <options>
+            <option>Używając metody size() kolekcji.</option>
+            <option>Używając metody length() kolekcji.</option>
+            <option>Używając metody count() kolekcji.</option>
+            <option>Rozmiar kolekcji zawsze wynosi zero.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

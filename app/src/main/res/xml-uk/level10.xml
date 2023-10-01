@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке потік вводу (input stream) в контексті Java?</text>
+        <options>
+            <option>Це потік, який виводить дані на консоль.</option>
+            <option>Це потік, який приймає дані з консолі.</option>
+            <option>Це потік, який зчитує дані з файлу або іншого джерела.</option>
+            <option>Це потік, який використовується для візуального виводу графіки.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити об'єкт FileOutputStream для запису даних у файл в Java?</text>
+        <options>
+            <option>FileOutputStream fileOut = new FileOutputStream("file.txt");</option>
+            <option>FileOutputStream fileOut = new FileOutputStream();</option>
+            <option>FileOutputStream fileOut = new FileInputStream("file.txt");</option>
+            <option>FileOutputStream fileOut = new FileInputStream();</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна зчитати дані з файлу в Java за допомогою потоку вводу (input stream)?</text>
+        <options>
+            <option>Використовуючи метод read() потоку вводу.</option>
+            <option>Використовуючи метод write() потоку вводу.</option>
+            <option>Використовуючи метод read() потоку виводу.</option>
+            <option>Використовуючи метод write() потоку виводу.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна записати дані у файл в Java за допомогою потоку виводу (output stream)?</text>
+        <options>
+            <option>Використовуючи метод read() потоку вводу.</option>
+            <option>Використовуючи метод write() потоку вводу.</option>
+            <option>Використовуючи метод read() потоку виводу.</option>
+            <option>Використовуючи метод write() потоку виводу.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна закрити потік вводу-виводу (input-output stream) в Java?</text>
+        <options>
+            <option>Використовуючи метод close() потоку.</option>
+            <option>Використовуючи метод open() потоку.</option>
+            <option>Використовуючи метод read() або write() потоку.</option>
+            <option>Закриття потоку не потрібне в Java.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке буферизовані потоки (buffered streams) в Java?</text>
+        <options>
+            <option>Це потоки, які використовуються для створення буферів пам'яті для зберігання даних.</option>
+            <option>Це потоки, які автоматично відкривають файли для зчитування.</option>
+            <option>Це потоки, які вимагають вказувати розмір файлу перед записом.</option>
+            <option>Це потоки, які не потребують буферизації даних.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна перевірити наявність файлу в Java перед відкриттям?</text>
+        <options>
+            <option>Використовуючи метод checkFile() класу File.</option>
+            <option>Використовуючи метод exists() класу File.</option>
+            <option>Не можна перевірити наявність файлу перед відкриттям в Java.</option>
+            <option>Використовуючи метод validateFile() класу File.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна прочитати текстовий файл рядок за рядком в Java?</text>
+        <options>
+            <option>Використовуючи метод readLine() класу BufferedReader.</option>
+            <option>Використовуючи метод read() класу FileReader.</option>
+            <option>Використовуючи метод parseLine() класу String.</option>
+            <option>Використовуючи метод getLine() класу Scanner.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Яка основна різниця між FileInputStream та FileReader в Java?</text>
+        <options>
+            <option>FileInputStream призначений для читання текстових файлів, а FileReader - для бінарних.</option>
+            <option>FileInputStream використовується для читання символів, а FileReader - для байтів.</option>
+            <option>FileInputStream працює з байтами, а FileReader - з символами в кодуванні UTF-8.</option>
+            <option>Немає різниці між FileInputStream та FileReader.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна записати текстовий файл у Java за допомогою BufferedWriter?</text>
+        <options>
+            <option>Використовуючи метод writeText() класу BufferedWriter.</option>
+            <option>Використовуючи метод print() класу PrintWriter.</option>
+            <option>Використовуючи метод append() класу FileWriter.</option>
+            <option>Використовуючи метод write() класу BufferedWriter.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+</questions>

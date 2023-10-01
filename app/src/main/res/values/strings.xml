@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation" translatable="false">Questionnaire for Java</string>
+    <string name="play">Play</string>
+    <string name="settings">settings</string>
+    <string name="exit">exit</string>
+    <string name="english">English</string>
+    <string name="polski">Polski</string>
+    <string name="Ukraine">Українська</string>
+    <string name="back">Назад</string>
+    <string name="question_text_goes_here">Question Text Goes Here</string>
+    <string name="submit">Submit</string>
+    <string name="option_1">варіант 1</string>
+    <string name="option_2">варіант 2</string>
+    <string name="option_3">варіант 3</string>
+    <string name="option_4">варіант 4</string>
+    <string name="level" translatable="false">Level %1$d\nBest : %2$d\nLast : %3$d</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="correct" >Correct</string>
+    <string name="incorrect" >Incorrect</string>
+    <string name="answer">Please select an answer</string>
+
+
+</resources>

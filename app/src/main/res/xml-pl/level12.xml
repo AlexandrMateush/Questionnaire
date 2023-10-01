@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest wielowątkowość (multithreading) w programowaniu?</text>
+        <options>
+            <option>To styl programowania, który wykorzystuje wiele wątków w jednym procesie do wykonywania zadań.</option>
+            <option>To podejście skoncentrowane na pracy z funkcjami matematycznymi i unikaniu stanu.</option>
+            <option>To podejście do programowania, w którym wszystkie zmienne są stałe.</option>
+            <option>Wielowątkowość w programowaniu nie istnieje.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie korzyści można uzyskać z wykorzystania wielowątkowości w programach?</text>
+        <options>
+            <option>Redukcja zużycia pamięci.</option>
+            <option>Zwiększenie kosztów programów.</option>
+            <option>Zwiększenie wydajności i responsywności programu.</option>
+            <option>Zwiększenie bezpieczeństwa programu.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak stworzyć nowy wątek (thread) w języku Java?</text>
+        <options>
+            <option>Za pomocą konstruktora klasy Thread.</option>
+            <option>Za pomocą metody start() klasy Thread.</option>
+            <option>Za pomocą metody run() klasy Thread.</option>
+            <option>Wątki są tworzone automatycznie w języku Java i nie wymagają specjalnego tworzenia.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są główne stany wykonania wątków (thread states) w języku Java?</text>
+        <options>
+            <option>Aktywny (Active), Zakończony (Finished), Zatrzymany (Stopped).</option>
+            <option>Uruchomiony (Runnable), Zablokowany (Blocked), Zakończony (Finished).</option>
+            <option>Utworzony (Created), Pracujący (Working), Wstrzymany (Suspended).</option>
+            <option>Wątki w języku Java nie mają stanów wykonania.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są podstawowe zasady wielowątkowości w języku Java?</text>
+        <options>
+            <option>Wszystkie wątki zawsze muszą działać równolegle.</option>
+            <option>Wszystkie wątki zawsze muszą działać sekwencyjnie.</option>
+            <option>Wątki mogą być tworzone i zatrzymywane w dowolnym momencie.</option>
+            <option>Wszystkie wątki zawsze mają takie same priorytety wykonania.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie zasady architektury REST (Representational State Transfer) są stosowane w zasobach internetowych?</text>
+        <options>
+            <option>Uwierzytelnianie i autoryzacja.</option>
+            <option>Przechowywanie stanu na serwerze.</option>
+            <option>Używanie danych strukturalnych.</option>
+            <option>Używanie bezstanowych żądań i zasobów.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie metody HTTP są używane w architekturze REST do odwoływania się do zasobów?</text>
+        <options>
+            <option>GET, POST, PUT, DELETE</option>
+            <option>READ, WRITE, UPDATE, REMOVE</option>
+            <option>FETCH, MODIFY, REPLACE, ERASE</option>
+            <option>Metody HTTP nie są używane w architekturze REST.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie protokoły są często używane do wymiany danych między klientem a serwerem w web development?</text>
+        <options>
+            <option>FTP, SMTP, POP3</option>
+            <option>HTTP, HTTPS, WebSocket</option>
+            <option>SSH, Telnet, SNMP</option>
+            <option>ICMP, ARP, TCP</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest multipleksowanie (multiplexing) w web development?</text>
+        <options>
+            <option>To proces tworzenia wielu kopii danych w celu zapewnienia niezawodności.</option>
+            <option>To proces wysyłania wielu wiadomości w jednym żądaniu lub odpowiedzi.</option>
+            <option>To metoda ochrony aplikacji webowych przed atakami.</option>
+            <option>Multipleksowanie nie jest używane w web development.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są podstawowe zasady bezpieczeństwa w sieci internetowej?</text>
+        <options>
+            <option>Skomplikowane hasła i korzystanie z publicznych sieci Wi-Fi.</option>
+            <option>Zakaz korzystania z oprogramowania antywirusowego.</option>
+            <option>Regularna aktualizacja oprogramowania i korzystanie z zabezpieczonych połączeń.</option>
+            <option>Używanie publicznych serwerów proxy do omijania ograniczeń.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

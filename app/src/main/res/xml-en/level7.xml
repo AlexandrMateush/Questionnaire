@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is an immutable object in Java?</text>
+        <options>
+            <option>An object that cannot be changed or modified after it is created.</option>
+            <option>An object that can only be used by one thread at a time.</option>
+            <option>An object that is always null.</option>
+            <option>An object with a dynamic size.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Why are immutable objects useful in Java?</text>
+        <options>
+            <option>They make code more complex and harder to maintain.</option>
+            <option>They allow for easy modification of object state.</option>
+            <option>They provide thread safety and make code more predictable.</option>
+            <option>They can be modified concurrently by multiple threads without issues.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which class in Java represents an immutable string?</text>
+        <options>
+            <option>MutableString</option>
+            <option>StringBuilder</option>
+            <option>StringBuffer</option>
+            <option>String</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you concatenate two strings in Java without creating a new string object?</text>
+        <options>
+            <option>Using the `+` operator.</option>
+            <option>Using the `concat()` method of the String class.</option>
+            <option>Using the `append()` method of the StringBuilder class.</option>
+            <option>It's not possible to concatenate strings without creating a new object.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the benefit of using StringBuilder over String for string manipulation?</text>
+        <options>
+            <option>StringBuilder is more memory-efficient.</option>
+            <option>StringBuilder allows for easier substring extraction.</option>
+            <option>StringBuilder is immutable.</option>
+            <option>StringBuilder is mutable and more efficient for frequent string modifications.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which of the following is an example of an immutable class in Java?</text>
+        <options>
+            <option>java.util.ArrayList</option>
+            <option>java.util.HashMap</option>
+            <option>java.lang.String</option>
+            <option>java.util.LinkedList</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What happens when you call the `toUpperCase()` method on a String object in Java?</text>
+        <options>
+            <option>The original string is modified to uppercase letters.</option>
+            <option>A new string with uppercase letters is created.</option>
+            <option>It throws an exception.</option>
+            <option>It converts the string to lowercase.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the primary advantage of using immutable objects for caching purposes?</text>
+        <options>
+            <option>They use less memory.</option>
+            <option>They can be modified without limitations.</option>
+            <option>They are thread-safe and can be safely shared among multiple threads.</option>
+            <option>They can be easily converted to mutable objects.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which method is used to obtain the length of a string in Java?</text>
+        <options>
+            <option>length()</option>
+            <option>size()</option>
+            <option>count()</option>
+            <option>sizeOf()</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the purpose of making an object immutable in Java?</text>
+        <options>
+            <option>To make it easier to modify its state.</option>
+            <option>To allow for concurrent modifications.</option>
+            <option>To ensure that its state cannot be changed after creation for thread safety and predictability.</option>
+            <option>To make it less memory-efficient.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

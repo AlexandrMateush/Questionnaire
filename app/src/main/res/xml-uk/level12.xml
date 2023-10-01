@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке багатопоточність (multithreading) в програмуванні?</text>
+        <options>
+            <option>Це стиль програмування, який використовує багато потоків в одному процесі для виконання задач.</option>
+            <option>Це методологія програмування, яка використовує багато паралельних процесів для збільшення продуктивності.</option>
+            <option>Це підхід до програмування, при якому використовуються багато процесорів для швидкісної обробки даних.</option>
+            <option>Багатопоточність в програмуванні не існує.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які переваги багатопоточності можуть бути використані в програмах?</text>
+        <options>
+            <option>Зменшення використання пам'яті.</option>
+            <option>Збільшення вартості програм.</option>
+            <option>Збільшення продуктивності та відзивчивості програми.</option>
+            <option>Підвищення безпеки програми.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити новий потік (thread) в мові програмування Java?</text>
+        <options>
+            <option>За допомогою конструктора класу Thread.</option>
+            <option>За допомогою методу start() класу Thread.</option>
+            <option>За допомогою методу run() класу Thread.</option>
+            <option>Потоки створюються автоматично в Java і не потребують спеціального створення.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які є стани виконання потоків (thread states) в Java?</text>
+        <options>
+            <option>Активний (Active), Завершений (Finished), Зупинений (Stopped).</option>
+            <option>Виконується (Runnable), Блокований (Blocked), Завершений (Finished).</option>
+            <option>Створений (Created), Робочий (Working), Призупинений (Suspended).</option>
+            <option>Потоки в Java не мають станів виконання.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні принципи багатопоточності в мові програмування Java?</text>
+        <options>
+            <option>Всі потоки мають завжди виконуватися паралельно.</option>
+            <option>Всі потоки мають завжди виконуватися послідовно.</option>
+            <option>Потоки можуть бути створені і завершені в будь-який момент.</option>
+            <option>Потоки завжди мають однаковий пріоритет виконання.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які принципи REST (Representational State Transfer) використовуються у веб-ресурсах?</text>
+        <options>
+            <option>Автентифікація та авторизація.</option>
+            <option>Збереження стану на сервері.</option>
+            <option>Використання структурованих даних.</option>
+            <option>Використання безстанційних запитів та ресурсів.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які HTTP методи використовуються для звернення до ресурсів у REST-архітектурі?</text>
+        <options>
+            <option>GET, POST, PUT, DELETE</option>
+            <option>READ, WRITE, UPDATE, REMOVE</option>
+            <option>FETCH, MODIFY, REPLACE, ERASE</option>
+            <option>HTTP методи не використовуються в REST-архітектурі.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які протоколи часто використовуються для обміну даними між клієнтом та сервером у веб-розробці?</text>
+        <options>
+            <option>FTP, SMTP, POP3</option>
+            <option>HTTP, HTTPS, WebSocket</option>
+            <option>SSH, Telnet, SNMP</option>
+            <option>ICMP, ARP, TCP</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке мультиплексування (multiplexing) у веб-розробці?</text>
+        <options>
+            <option>Це процес створення багатьох копій даних для забезпечення надійності.</option>
+            <option>Це процес передачі багатьох повідомлень в одному запиті або відповіді.</option>
+            <option>Це метод захисту веб-додатків від атак.</option>
+            <option>Мультиплексування не використовується в веб-розробці.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні принципи безпеки мережі в інтернеті?</text>
+        <options>
+            <option>Складний пароль і використання відкритих мереж Wi-Fi.</option>
+            <option>Заборона використання антивірусного програмного забезпечення.</option>
+            <option>Постійне оновлення програмного забезпечення та користування шифрованими з'єднаннями.</option>
+            <option>Використання відкритих проксі-серверів для обходу обмежень.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

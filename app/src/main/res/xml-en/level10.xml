@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is an input stream in the context of Java?</text>
+        <options>
+            <option>It's a stream that outputs data to the console.</option>
+            <option>It's a stream that accepts data from the console.</option>
+            <option>It's a stream that reads data from a file or other sources.</option>
+            <option>It's a stream used for visual graphics output.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you create a FileOutputStream object to write data to a file in Java?</text>
+        <options>
+            <option>FileOutputStream fileOut = new FileOutputStream("file.txt");</option>
+            <option>FileOutputStream fileOut = new FileOutputStream();</option>
+            <option>FileOutputStream fileOut = new FileInputStream("file.txt");</option>
+            <option>FileOutputStream fileOut = new FileInputStream();</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you read data from a file in Java using an input stream?</text>
+        <options>
+            <option>By using the read() method of the input stream.</option>
+            <option>By using the write() method of the input stream.</option>
+            <option>By using the read() method of the output stream.</option>
+            <option>By using the write() method of the output stream.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you write data to a file in Java using an output stream?</text>
+        <options>
+            <option>By using the read() method of the input stream.</option>
+            <option>By using the write() method of the input stream.</option>
+            <option>By using the read() method of the output stream.</option>
+            <option>By using the write() method of the output stream.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you close an input-output stream in Java?</text>
+        <options>
+            <option>By using the close() method of the stream.</option>
+            <option>By using the open() method of the stream.</option>
+            <option>There is no need to close a stream in Java.</option>
+            <option>By using the read() or write() methods of the stream.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are buffered streams in Java?</text>
+        <options>
+            <option>These are streams that create memory buffers to store data.</option>
+            <option>These are streams that automatically open files for reading.</option>
+            <option>These are streams that require specifying the file size before writing.</option>
+            <option>These are streams that don't require data buffering.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you check the existence of a file in Java before opening it?</text>
+        <options>
+            <option>By using the checkFile() method of the File class.</option>
+            <option>By using the exists() method of the File class.</option>
+            <option>You cannot check the existence of a file before opening it in Java.</option>
+            <option>By using the validateFile() method of the File class.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you read a text file line by line in Java?</text>
+        <options>
+            <option>By using the readLine() method of the BufferedReader class.</option>
+            <option>By using the read() method of the FileReader class.</option>
+            <option>By using the parseLine() method of the String class.</option>
+            <option>By using the getLine() method of the Scanner class.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the main difference between FileInputStream and FileReader in Java?</text>
+        <options>
+            <option>FileInputStream is for reading text files, while FileReader is for binary files.</option>
+            <option>FileInputStream works with characters, while FileReader works with bytes.</option>
+            <option>FileInputStream operates on bytes, while FileReader operates on characters in UTF-8 encoding.</option>
+            <option>There is no difference between FileInputStream and FileReader.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you write a text file in Java using BufferedWriter?</text>
+        <options>
+            <option>By using the writeText() method of the BufferedWriter class.</option>
+            <option>By using the print() method of the PrintWriter class.</option>
+            <option>By using the append() method of the FileWriter class.</option>
+            <option>By using the write() method of the BufferedWriter class.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+</questions>

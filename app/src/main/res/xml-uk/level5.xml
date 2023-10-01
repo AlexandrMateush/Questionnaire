@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке ООП (об'єктно-орієнтоване програмування)?</text>
+        <options>
+            <option>Підхід до програмування, який базується на об'єктах та класах.</option>
+            <option>Метод програмування, який використовує лише функції.</option>
+            <option>Модель програмування, яка виключає використання змінних.</option>
+            <option>Спосіб програмування, який використовує тільки числа.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке клас в програмуванні і для чого він використовується?</text>
+        <options>
+            <option>Клас - це конкретний об'єкт у програмі.</option>
+            <option>Клас - це змінна, яка зберігає дані.</option>
+            <option>Клас - це шаблон для створення об'єктів і містить опис їхньої структури та поведінки.</option>
+            <option>Клас - це функція, яка виконує певну операцію.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити об'єкт класу в Java?</text>
+        <options>
+            <option>object = new Class();</option>
+            <option>Class obj = new Class();</option>
+            <option>Class.newObject();</option>
+            <option>new Class();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як називаються функції, які визначені в класі і використовуються для виконання певних операцій над об'єктами цього класу?</text>
+        <options>
+            <option>Методи</option>
+            <option>Функції</option>
+            <option>Процедури</option>
+            <option>Оператори</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які ключові слова використовуються для оголошення методів і змінних класу в Java?</text>
+        <options>
+            <option>public, private, protected</option>
+            <option>function, variable, class</option>
+            <option>method, attribute, class</option>
+            <option>void, int, string</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити конструктор класу в Java?</text>
+        <options>
+            <option>constructor ClassName() { /* код */ }</option>
+            <option>init() { /* код */ }</option>
+            <option>void ClassName() { /* код */ }</option>
+            <option>Class.create() { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке спадкування (наслідування) класів в ООП?</text>
+        <options>
+            <option>Спадкування - це процес створення нового класу на основі існуючого класу з додаванням або зміненням функціональності.</option>
+            <option>Спадкування - це процес видалення класу із системи.</option>
+            <option>Спадкування - це створення копії об'єкта.</option>
+            <option>Спадкування - це перейменування класу.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як позначити клас, який не може бути успадкований в Java?</text>
+        <options>
+            <option>final class ClassName { /* код */ }</option>
+            <option>sealed class ClassName { /* код */ }</option>
+            <option>static class ClassName { /* код */ }</option>
+            <option>inheritance-disabled class ClassName { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити абстрактний метод в Java?</text>
+        <options>
+            <option>abstract void methodName();</option>
+            <option>void abstract methodName();</option>
+            <option>void methodName() abstract;</option>
+            <option>methodName() { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити статичний метод класу в Java?</text>
+        <options>
+            <option>static void methodName() { /* код */ }</option>
+            <option>void static methodName() { /* код */ }</option>
+            <option>methodName() static { /* код */ }</option>
+            <option>void methodName() { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

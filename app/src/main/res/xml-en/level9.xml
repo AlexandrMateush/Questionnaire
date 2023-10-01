@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What are generics in the Java programming language?</text>
+        <options>
+            <option>An embedded package with graphical interfaces.</option>
+            <option>A mechanism for creating generic (parameterized) classes and methods.</option>
+            <option>A programming language for working with large datasets.</option>
+            <option>A special type of variable for storing date and time information.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How are generics marked when declaring a class in Java?</text>
+        <options>
+            <option>Using an asterisk (*).</option>
+            <option>Using a percent symbol (%).</option>
+            <option>Using angle brackets ( >).</option>
+            <option>Using both an asterisk and angle brackets (* >).</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are parameterized types (generic types) used for in Java?</text>
+        <options>
+            <option>Storing text strings.</option>
+            <option>Storing numeric values.</option>
+            <option>Creating classes and methods that can work with various data types.</option>
+            <option>Creating variables that can be changed during program execution.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you define a parameterized method in Java?</text>
+        <options>
+            <option>Add the keyword "parameterized" before declaring the method.</option>
+            <option>Use an asterisk (*) before the method name.</option>
+            <option>Use a type parameter before the return type of the method.</option>
+            <option>Define the method just like a regular method without additional markers.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you create a list (List) using generics in Java?</text>
+        <options>
+            <option>List myList = new List();</option>
+            <option>List String> myList = new List String>();</option>
+            <option>List String> myList = new ArrayList String>();</option>
+            <option>List myList = new ArrayList();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you add an element to a collection in Java?</text>
+        <options>
+            <option>By using the add() method of the collection.</option>
+            <option>By using the "insert" keyword.</option>
+            <option>By directly changing the size of the collection.</option>
+            <option>By using the append() method of the collection.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you remove an element from a collection in Java?</text>
+        <options>
+            <option>By using the remove() method of the collection.</option>
+            <option>By using the "delete" keyword.</option>
+            <option>By directly changing the size of the collection.</option>
+            <option>By using the clear() method of the collection.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you check if an element exists in a collection in Java?</text>
+        <options>
+            <option>By using the check() method of the collection.</option>
+            <option>By using the "contains" keyword.</option>
+            <option>By checking the size of the collection and comparing it to zero.</option>
+            <option>By using the find() method of the collection.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you iterate through elements of a collection in Java?</text>
+        <options>
+            <option>By using the "loop" keyword.</option>
+            <option>By using a "for each" construct.</option>
+            <option>By using an "if else" construct.</option>
+            <option>You must always use a "while" loop.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you determine the size of a collection in Java?</text>
+        <options>
+            <option>By using the size() method of the collection.</option>
+            <option>By using the length() method of the collection.</option>
+            <option>By using the count() method of the collection.</option>
+            <option>The size of a collection is always zero.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

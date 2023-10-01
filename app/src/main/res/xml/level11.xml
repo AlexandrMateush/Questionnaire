@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is Functional Programming in the context of Java?</text>
+        <options>
+            <option>It is a programming style that uses only functions in the code.</option>
+            <option>It is an approach focused on working with mathematical functions and avoiding state.</option>
+            <option>It is a programming style where all variables are constants.</option>
+            <option>It is a programming methodology that maximizes developer productivity.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is Stream API in Java?</text>
+        <options>
+            <option>It is an API for working with strings in text format.</option>
+            <option>It is an API for handling input and output streams.</option>
+            <option>It is an API for processing data as a sequence of elements using functional programming.</option>
+            <option>It is an API for working with network streams.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the main advantage of using Stream API in Java?</text>
+        <options>
+            <option>Reducing the number of database accesses.</option>
+            <option>Increasing program performance.</option>
+            <option>Convenient network operations.</option>
+            <option>Ability to perform filtering and transformation operations on data streams.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you create a Stream from a list of objects in Java?</text>
+        <options>
+            <option>Using the listStream() method of the Stream class.</option>
+            <option>Using the stream() method of the List class.</option>
+            <option>Using the createStream() method of the Arrays class.</option>
+            <option>You cannot create a stream from a list of objects in Java.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What operations can be performed on streams in Java?</text>
+        <options>
+            <option>Only read operations.</option>
+            <option>Only write operations.</option>
+            <option>Filtering, mapping, reducing (reduction), sorting, and many others.</option>
+            <option>Streams do not support operations.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which operation is used to combine elements of a Stream into one result in Java?</text>
+        <options>
+            <option>map()</option>
+            <option>filter()</option>
+            <option>concat()</option>
+            <option>reduce()</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What does the filter() operation do in Stream API in Java?</text>
+        <options>
+            <option>It maps (transforms) elements of the stream.</option>
+            <option>It filters elements of the stream based on a specified condition.</option>
+            <option>It reduces all elements to a single result.</option>
+            <option>It sorts elements of the stream.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are lambda expressions in Java?</text>
+        <options>
+            <option>They are sets of characters that carry a separate meaning and are used in strings.</option>
+            <option>They are expressions used to define anonymous functions (functions without a name).</option>
+            <option>They are expressions used to display data on the screen.</option>
+            <option>Lambda expressions are not supported in Java.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you sort elements of a Stream in ascending order using the sorted() method in Java?</text>
+        <options>
+            <option>sorted()</option>
+            <option>sorted(Comparator.reverseOrder())</option>
+            <option>sorted(Comparator.naturalOrder())</option>
+            <option>sorted(Comparator.ascendingOrder())</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you use the forEach() method in Stream API in Java?</text>
+        <options>
+            <option>To merge elements of the stream.</option>
+            <option>To display each element of the stream on the screen.</option>
+            <option>To transform elements of the stream into a different data type.</option>
+            <option>The forEach() method does not exist in Stream API.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+</questions>

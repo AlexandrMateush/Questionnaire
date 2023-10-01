@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Як оголосити і ініціалізувати масив цілих чисел в Java?</text>
+        <options>
+            <option>int[] arr = new int[10];</option>
+            <option>array int arr = new array int (10);</option>
+            <option>int arr[10];</option>
+            <option>int arr = new int[10];</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як перевірити, чи є число парним в Java за допомогою умови?</text>
+        <options>
+            <option>if (num % 2 == 0) { /* код */ }</option>
+            <option>if (num.isEven()) { /* код */ }</option>
+            <option>if (isEven(num)) { /* код */ }</option>
+            <option>if (num / 2 == 0) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як ввести ціле число з консолі в Java?</text>
+        <options>
+            <option>int num = System.console().readInt();</option>
+            <option>int num = Console.readInt();</option>
+            <option>int num = Scanner.nextInt();</option>
+            <option>int num = readInt();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити максимальний елемент в масиві цілих чисел в Java?</text>
+        <options>
+            <option>int max = findMax(array);</option>
+            <option>int max = Arrays.max(array);</option>
+            <option>int max = array.max();</option>
+            <option>int max = Arrays.stream(array).max().getAsInt();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як перевірити, чи масив містить певний елемент в Java?</text>
+        <options>
+            <option>if (array.contains(element)) { /* код */ }</option>
+            <option>if (array.hasElement(element)) { /* код */ }</option>
+            <option>if (element in array) { /* код */ }</option>
+            <option>if (Arrays.contains(array, element)) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які оператори використовуються для створення умовних виразів в Java?</text>
+        <options>
+            <option>if, then, else</option>
+            <option>if, else if, else</option>
+            <option>when, case, otherwise</option>
+            <option>for, while, do-while</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як вивести текст на консоль з використанням команди `System.out.println` в Java?</text>
+        <options>
+            <option>print("Hello, World!");</option>
+            <option>console.log("Hello, World!");</option>
+            <option>System.out.print("Hello, World!");</option>
+            <option>System.out.println("Hello, World!");</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити довжину (кількість елементів) масиву в Java?</text>
+        <options>
+            <option>int size = array.length();</option>
+            <option>int size = array.size();</option>
+            <option>int size = array.count();</option>
+            <option>int size = array.length;</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити мінімальний елемент в масиві цілих чисел в Java?</text>
+        <options>
+            <option>int min = findMin(array);</option>
+            <option>int min = Arrays.min(array);</option>
+            <option>int min = array.min();</option>
+            <option>int min = Arrays.stream(array).min().getAsInt();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як перевірити, чи рядок є пустим (не містить жодних символів) в Java?</text>
+        <options>
+            <option>if (str.isEmpty()) { /* код */ }</option>
+            <option>if (str.length() == 0) { /* код */ }</option>
+            <option>if (str.equals("")) { /* код */ }</option>
+            <option>if (str.isNull()) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

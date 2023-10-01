@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Які види циклів існують в мові Java?</text>
+        <options>
+            <option>for, while, switch</option>
+            <option>do, while, repeat</option>
+            <option>if, else, for</option>
+            <option>loop, until, when</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як використовувати цикл `for` для ітерації через масив в Java?</text>
+        <options>
+            <option>for (int i = 0; i  array.length(); i++) { /* код */ }</option>
+            <option>for (int i : array) { /* код */ }</option>
+            <option>for (int i = 0; i = array.size(); i++) { /* код */ }</option>
+            <option>foreach (int i in array) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як завершити виконання поточної ітерації циклу і перейти до наступної в Java?</text>
+        <options>
+            <option>continue;</option>
+            <option>break;</option>
+            <option>return;</option>
+            <option>skip;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як використовувати цикл `while` для повторення блоку коду до виконання умови в Java?</text>
+        <options>
+            <option>while (true) { /* код */ }</option>
+            <option>while (condition) { /* код */ }</option>
+            <option>while (false) { /* код */ }</option>
+            <option>while (for) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як вийти із циклу раніше, ніж умова стане `false` в Java?</text>
+        <options>
+            <option>break;</option>
+            <option>exit;</option>
+            <option>return;</option>
+            <option>stop;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які ключові слова використовуються для керування виконанням циклів в Java?</text>
+        <options>
+            <option>run, pause, stop</option>
+            <option>start, finish, restart</option>
+            <option>break, continue, return</option>
+            <option>do, while, if</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як використовувати цикл `do...while` в Java?</text>
+        <options>
+            <option>do { /* код */ } while (condition);</option>
+            <option>while (condition) { /* код */ } do;</option>
+            <option>do { /* код */ } until (condition);</option>
+            <option>for (int i = 0; i  10; i++) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як визначити нескінченний цикл в Java?</text>
+        <options>
+            <option>while (true) { /* код */ }</option>
+            <option>for (;;) { /* код */ }</option>
+            <option>loop { /* код */ }</option>
+            <option>infinity { /* код */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як виконати код циклу хоча б один раз навіть, якщо умова не виконується в Java?</text>
+        <options>
+            <option>while (false) { /* код */ }</option>
+            <option>do { /* код */ } while (false);</option>
+            <option>for (;;) { /* код */ }</option>
+            <option>if (condition) { /* код */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як використовувати оператор `break` для виходу з вкладеного циклу в Java?</text>
+        <options>
+            <option>break;</option>
+            <option>break(n);</option>
+            <option>exit;</option>
+            <option>return;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

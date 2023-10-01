@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What types of cycle are available in the Java programming language?</text>
+        <options>
+            <option>for, while, switch</option>
+            <option>do, while, repeat</option>
+            <option>if, else, for</option>
+            <option>loop, until, when</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you use a `for` cycle to iterate through an array in Java?</text>
+        <options>
+            <option>for (int i = 0; i  array.length(); i++) { /* code */ }</option>
+            <option>for (int i : array) { /* code */ }</option>
+            <option>for (int i = 0; i = array.size(); i++) { /* code */ }</option>
+            <option>foreach (int i in array) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you terminate the current iteration of a cycle and move to the next one in Java?</text>
+        <options>
+            <option>continue;</option>
+            <option>break;</option>
+            <option>return;</option>
+            <option>skip;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you use a `while` cycle to repeatedly execute a block of code until a condition is met in Java?</text>
+        <options>
+            <option>while (true) { /* code */ }</option>
+            <option>while (condition) { /* code */ }</option>
+            <option>while (false) { /* code */ }</option>
+            <option>while (for) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you exit a cycle before the condition becomes `false` in Java?</text>
+        <options>
+            <option>break;</option>
+            <option>exit;</option>
+            <option>return;</option>
+            <option>stop;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What keywords are used to control the execution of cycle in Java?</text>
+        <options>
+            <option>run, pause, stop</option>
+            <option>start, finish, restart</option>
+            <option>break, continue, return</option>
+            <option>do, while, if</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you use a `do...while` cycle in Java?</text>
+        <options>
+            <option>do { /* code */ } while (condition);</option>
+            <option>while (condition) { /* code */ } do;</option>
+            <option>do { /* code */ } until (condition);</option>
+            <option>for (int i = 0; i  10; i++) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you define an infinite cycle in Java?</text>
+        <options>
+            <option>while (true) { /* code */ }</option>
+            <option>for (;;) { /* code */ }</option>
+            <option>loop { /* code */ }</option>
+            <option>infinity { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you execute the code inside a cycle at least once, even if the condition is not satisfied in Java?</text>
+        <options>
+            <option>while (false) { /* code */ }</option>
+            <option>do { /* code */ } while (false);</option>
+            <option>for (;;) { /* code */ }</option>
+            <option>if (condition) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you use the `break` statement to exit from a nested cycle in Java?</text>
+        <options>
+            <option>break;</option>
+            <option>break(n);</option>
+            <option>exit;</option>
+            <option>return;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

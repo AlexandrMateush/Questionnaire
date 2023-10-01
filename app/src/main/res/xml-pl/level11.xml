@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest programowanie funkcyjne (Functional Programming) w kontekście języka Java?</text>
+        <options>
+            <option>To styl programowania, który używa tylko funkcji w kodzie programu.</option>
+            <option>To podejście skoncentrowane na pracy z matematycznymi funkcjami i unikaniu stanu.</option>
+            <option>To styl programowania, w którym wszystkie zmienne są stałymi.</option>
+            <option>To metodologia programowania, która maksymalizuje wydajność programisty.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Co to jest Stream API w języku Java?</text>
+        <options>
+            <option>To API do pracy ze stringami w formacie tekstowym.</option>
+            <option>To API do obsługi strumieni wejścia i wyjścia.</option>
+            <option>To API do przetwarzania danych jako sekwencji elementów przy użyciu programowania funkcyjnego.</option>
+            <option>To API do obsługi strumieni sieciowych.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka jest główna zaleta korzystania z Stream API w języku Java?</text>
+        <options>
+            <option>Redukcja liczby dostępów do baz danych.</option>
+            <option>Zwiększenie wydajności programów.</option>
+            <option>Wygodna praca z sieciami.</option>
+            <option>Możliwość wykonywania operacji filtrowania i przekształcania na strumieniach danych.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak stworzyć strumień (Stream) z listy (List) obiektów w języku Java?</text>
+        <options>
+            <option>Za pomocą metody listStream() klasy Stream.</option>
+            <option>Za pomocą metody stream() klasy List.</option>
+            <option>Za pomocą metody createStream() klasy Arrays.</option>
+            <option>Nie można stworzyć strumienia z listy obiektów w języku Java.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie operacje można wykonać na strumieniach w języku Java?</text>
+        <options>
+            <option>Tylko operacje odczytu (read).</option>
+            <option>Tylko operacje zapisu (write).</option>
+            <option>Operacje filtrowania, mapowania, redukcji (reduce), sortowania i wiele innych.</option>
+            <option>Strumienie nie obsługują operacji.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jaka operacja służy do połączenia elementów strumienia w jeden wynik w języku Java?</text>
+        <options>
+            <option>map()</option>
+            <option>filter()</option>
+            <option>concat()</option>
+            <option>reduce()</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Co robi operacja filter() w Stream API w języku Java?</text>
+        <options>
+            <option>Mapuje (przekształca) elementy strumienia.</option>
+            <option>Filtruje elementy strumienia na podstawie określonego warunku.</option>
+            <option>Redukuje (reduce) wszystkie elementy do jednego wyniku.</option>
+            <option>Sortuje elementy strumienia.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Co to są wyrażenia lambda (lambda expressions) w języku Java?</text>
+        <options>
+            <option>To zestaw znaków, które przenoszą oddzielne znaczenie i są używane w łańcuchach tekstowych.</option>
+            <option>To wyrażenia używane do definiowania anonimowych funkcji (funkcji bez nazwy).</option>
+            <option>To wyrażenia używane do wyświetlania danych na ekranie.</option>
+            <option>Wyrażenia lambda nie są obsługiwane w języku Java.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak posortować elementy strumienia rosnąco (asc) za pomocą metody sorted() w języku Java?</text>
+        <options>
+            <option>sorted()</option>
+            <option>sorted(Comparator.reverseOrder())</option>
+            <option>sorted(Comparator.naturalOrder())</option>
+            <option>sorted(Comparator.ascendingOrder())</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak można używać metody forEach() w Stream API w języku Java?</text>
+        <options>
+            <option>Do łączenia (merge) elementów strumienia.</option>
+            <option>Do wyświetlania każdego elementu strumienia na ekranie.</option>
+            <option>Do przekształcania elementów strumienia w inny typ danych.</option>
+            <option>Metoda forEach() nie istnieje w Stream API.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+</questions>

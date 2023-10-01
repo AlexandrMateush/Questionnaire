@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is OOP (Object-Oriented Programming)?</text>
+        <options>
+            <option>A programming paradigm based on objects and classes.</option>
+            <option>A programming method based solely on functions.</option>
+            <option>A programming model that excludes the use of variables.</option>
+            <option>A programming method based solely on numbers.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is a class in programming, and what is its purpose?</text>
+        <options>
+            <option>A class is specific objects in a program.</option>
+            <option>A class is a variable that stores data.</option>
+            <option>A class is a template for creating objects and contains a description of their structure and behavior.</option>
+            <option>A class is a function that performs a specific operation.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to create an object of a class in Java?</text>
+        <options>
+            <option>object = new Class();</option>
+            <option>Class obj = new Class();</option>
+            <option>Class.newObject();</option>
+            <option>new Class();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the functions defined in a class and used to perform specific operations on objects of that class called?</text>
+        <options>
+            <option>Methods</option>
+            <option>Functions</option>
+            <option>Procedures</option>
+            <option>Operators</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What keywords are used to declare class methods and variables in Java?</text>
+        <options>
+            <option>public, private, protected</option>
+            <option>function, variable, class</option>
+            <option>method, attribute, class</option>
+            <option>void, int, string</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you define a constructor for a class in Java?</text>
+        <options>
+            <option>constructor ClassName() { /* code */ }</option>
+            <option>init() { /* code */ }</option>
+            <option>void ClassName() { /* code */ }</option>
+            <option>Class.create() { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is class inheritance in OOP?</text>
+        <options>
+            <option>Inheritance is the process of creating a new class based on an existing class with the addition or modification of functionality.</option>
+            <option>Inheritance is the process of removing a class from the system.</option>
+            <option>Inheritance is the process of creating a copy of an object.</option>
+            <option>Inheritance is the process of renaming a class.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you mark a class as not inheritable in Java?</text>
+        <options>
+            <option>final class ClassName { /* code */ }</option>
+            <option>sealed class ClassName { /* code */ }</option>
+            <option>static class ClassName { /* code */ }</option>
+            <option>inheritance-disabled class ClassName { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you define an abstract method in Java?</text>
+        <options>
+            <option>abstract void methodName();</option>
+            <option>void abstract methodName();</option>
+            <option>void methodName() abstract;</option>
+            <option>methodName() { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you define a static method of a class in Java?</text>
+        <options>
+            <option>static void methodName() { /* code */ }</option>
+            <option>void static methodName() { /* code */ }</option>
+            <option>methodName() static { /* code */ }</option>
+            <option>void methodName() { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

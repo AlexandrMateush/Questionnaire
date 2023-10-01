@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the purpose of interfaces in Java?</text>
+        <options>
+            <option>To create objects of classes.</option>
+            <option>To inherit from parent classes.</option>
+            <option>To declare methods that must be implemented by classes.</option>
+            <option>To define variable data structures.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the main difference between an interface and a class in Java?</text>
+        <options>
+            <option>Interfaces can have constructors, while classes cannot.</option>
+            <option>Classes can have static methods, while interfaces cannot.</option>
+            <option>Interfaces can only contain abstract methods, whereas classes can have implemented methods.</option>
+            <option>Classes cannot inherit from interfaces.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How are interfaces marked in Java?</text>
+        <options>
+            <option>Using the "interface" keyword.</option>
+            <option>Using the "class" keyword.</option>
+            <option>Using the "implements" keyword.</option>
+            <option>Using the "extends" keyword.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is an enumeration (enum) in Java?</text>
+        <options>
+            <option>It's a special type of class that cannot have methods.</option>
+            <option>It's a special collection of objects.</option>
+            <option>It's a special type of interface used to define enumerations.</option>
+            <option>It's a special type of array.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you declare and use enumerations (enum) in Java?</text>
+        <options>
+            <option>Using the "enum" keyword to declare constant enum objects.</option>
+            <option>Using the "class" keyword to declare constant enum objects.</option>
+            <option>Using the "interface" keyword to declare constant enum objects.</option>
+            <option>Using the "enum" keyword to declare variable enum objects.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the advantages of using enumerations (enum) in Java?</text>
+        <options>
+            <option>They allow adding methods to enum objects.</option>
+            <option>They provide more flexibility compared to regular classes.</option>
+            <option>They guarantee type safety during compilation and can be used in switch statements.</option>
+            <option>They can contain any number of values.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you get all the values of an enumeration (enum) in Java?</text>
+        <options>
+            <option>By using the `values()` method.</option>
+            <option>By using the `allValues()` method.</option>
+            <option>By using the `enumerate()` method.</option>
+            <option>By using the `list()` method.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What methods can be defined in an interface in Java?</text>
+        <options>
+            <option>Only abstract methods.</option>
+            <option>Only static methods.</option>
+            <option>Both abstract and static methods.</option>
+            <option>Only methods with implementation (default methods).</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can a class implement more than one interface in Java?</text>
+        <options>
+            <option>By using the "implements" keyword and listing all the interfaces separated by commas.</option>
+            <option>By using the "extends" keyword and listing all the interfaces separated by commas.</option>
+            <option>It's not possible; a class can only implement one interface.</option>
+            <option>By using the "implements" keyword and repeating the interface name in the code.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Why can't enumerations (enum) be extended in Java?</text>
+        <options>
+            <option>Because enumerations already inherit from the Enum class and cannot have other superclasses.</option>
+            <option>It's possible, but the extending class must also be an enumeration.</option>
+            <option>It's possible, but the extending class must be an abstract class.</option>
+            <option>Enumerations can be extended, but it's not recommended due to code complexity.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

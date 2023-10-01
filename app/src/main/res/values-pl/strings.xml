@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="play">Grać </string>
+    <string name="settings">Ustawienia </string>
+    <string name="exit">Wyjście</string>
+    <string name="english">English</string>
+    <string name="polski">Polski</string>
+    <string name="Ukraine">Українська</string>
+    <string name="back">Wstecz</string>
+    <string name="question_text_goes_here">Question Text Goes Here</string>
+    <string name="submit">odpowiedź</string>
+    <string name="option_1" />
+    <string name="option_2" />
+    <string name="option_3" />
+    <string name="option_4" />
+    <string name="reset_progress">Reset Progress</string>
+    <string name="level" >Poziom %1$d\nNajlepszy : %2$d\nOstatni : %3$d</string>
+    <string name="correct" >Wiernie</string>
+    <string name="incorrect" >Nieprawda</string>
+    <string name="answer">Proszę o odpowiedź </string>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie rodzaje pętli są dostępne w języku Java?</text>
+        <options>
+            <option>for, while, switch</option>
+            <option>do, while, repeat</option>
+            <option>if, else, for</option>
+            <option>loop, until, when</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak używać pętli `for` do iteracji przez tablicę w Javie?</text>
+        <options>
+            <option>for (int i = 0; i  array.length(); i++) { /* kod */ }</option>
+            <option>for (int i : array) { /* kod */ }</option>
+            <option>for (int i = 0; i = array.size(); i++) { /* kod */ }</option>
+            <option>foreach (int i in array) { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zakończyć bieżącą iterację pętli i przejść do następnej w Javie?</text>
+        <options>
+            <option>continue;</option>
+            <option>break;</option>
+            <option>return;</option>
+            <option>skip;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak używać pętli `while` do powtarzania bloku kodu do spełnienia warunku w Javie?</text>
+        <options>
+            <option>while (true) { /* kod */ }</option>
+            <option>while (condition) { /* kod */ }</option>
+            <option>while (false) { /* kod */ }</option>
+            <option>while (for) { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak wyjść z pętli wcześniej niż warunek stanie się `false` w Javie?</text>
+        <options>
+            <option>break;</option>
+            <option>exit;</option>
+            <option>return;</option>
+            <option>stop;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie słowa kluczowe są używane do zarządzania wykonywaniem pętli w Javie?</text>
+        <options>
+            <option>run, pause, stop</option>
+            <option>start, finish, restart</option>
+            <option>break, continue, return</option>
+            <option>do, while, if</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak używać pętli `do...while` w Javie?</text>
+        <options>
+            <option>do { /* kod */ } while (condition);</option>
+            <option>while (condition) { /* kod */ } do;</option>
+            <option>do { /* kod */ } until (condition);</option>
+            <option>for (int i = 0; i  10; i++) { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zdefiniować nieskończoną pętlę w Javie?</text>
+        <options>
+            <option>while (true) { /* kod */ }</option>
+            <option>for (;;) { /* kod */ }</option>
+            <option>loop { /* kod */ }</option>
+            <option>infinity { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak wykonać kod pętli przynajmniej raz, nawet jeśli warunek nie jest spełniony w Javie?</text>
+        <options>
+            <option>while (false) { /* kod */ }</option>
+            <option>do { /* kod */ } while (false);</option>
+            <option>for (;;) { /* kod */ }</option>
+            <option>if (condition) { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak używać operatora `break` do wyjścia z zagnieżdżonej pętli w Javie?</text>
+        <options>
+            <option>break;</option>
+            <option>break(n);</option>
+            <option>exit;</option>
+            <option>return;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

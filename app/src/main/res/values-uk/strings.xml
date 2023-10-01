@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="play">Грати</string>
+    <string name="settings">Налаштування</string>
+    <string name="exit">Вихід</string>
+    <string name="english">English</string>
+    <string name="polski">Polski</string>
+    <string name="Ukraine">Українська</string>
+    <string name="back">Назад</string>
+    <string name="question_text_goes_here">Question Text Goes Here</string>
+    <string name="submit">Відповісти</string>
+    <string name="option_1" />
+    <string name="option_2" />
+    <string name="option_3" />
+    <string name="option_4" />
+    <string name="reset_progress">Reset Progress</string>
+    <string name="level" >Рівень %1$d\nКращий : %2$d\nОстанній : %3$d</string>
+    <string name="correct" >Вірно</string>
+    <string name="incorrect" >Не вірно</string>
+    <string name="answer">Будь ласка дайте відповідь </string>
+
+
+</resources>

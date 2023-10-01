@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the difference between a constructor and a regular method in Java?</text>
+        <options>
+            <option>A constructor always returns a value, while methods do not.</option>
+            <option>Constructors cannot take arguments, whereas methods can.</option>
+            <option>Constructors have a special syntax and are used for initializing class objects, while methods perform additional operations.</option>
+            <option>Constructors can be inherited, but methods cannot.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the main types of constructors in Java?</text>
+        <options>
+            <option>Empty, parameterized, copy constructors.</option>
+            <option>Public, private, static.</option>
+            <option>Class constructors, interface constructors, inner class constructors.</option>
+            <option>Subclass constructors, superclass constructors, Object class constructors.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How does an initialization block differ from a constructor in Java?</text>
+        <options>
+            <option>An initialization block always executes before a constructor.</option>
+            <option>An initialization block always executes after a constructor.</option>
+            <option>An initialization block only executes when the class is created, whereas a constructor executes when an object is created.</option>
+            <option>An initialization block and a constructor perform the same operations in the order they appear in the code.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the main types of inner classes in Java?</text>
+        <options>
+            <option>Inner, nested, static.</option>
+            <option>Local, anonymous, static.</option>
+            <option>Inner, local, anonymous.</option>
+            <option>Inner, static, functional.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is an anonymous inner class in Java?</text>
+        <options>
+            <option>A class that has no name and is defined directly within the body of another class or method.</option>
+            <option>A class with the name "Anonymous" that cannot be inherited.</option>
+            <option>A class that can have only one method.</option>
+            <option>A class that is always static.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How can you create an instance of an inner class in Java?</text>
+        <options>
+            <option>InnerClass obj = new InnerClass();</option>
+            <option>OuterClass.InnerClass obj = new OuterClass.InnerClass();</option>
+            <option>InnerClass obj = OuterClass.new InnerClass();</option>
+            <option>OuterClass obj = new OuterClass();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is the purpose of static inner classes in Java?</text>
+        <options>
+            <option>Static inner classes allow you to create instances of the class without creating an instance of the outer class.</option>
+            <option>Static inner classes are used for inheriting properties of the outer class.</option>
+            <option>Static inner classes are used for creating static methods.</option>
+            <option>Static inner classes are used to hide properties of the outer class.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How does a local inner class differ from an anonymous inner class in Java?</text>
+        <options>
+            <option>A local inner class has a name, while an anonymous inner class does not.</option>
+            <option>An anonymous inner class has a name, while a local inner class does not.</option>
+            <option>A local inner class must always be static, while an anonymous inner class does not need to be.</option>
+            <option>An anonymous inner class must always be static, while a local inner class does not need to be.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which keywords are used to access fields of the outer class in an inner class?</text>
+        <options>
+            <option>this.outerField</option>
+            <option>OuterClass.outerField</option>
+            <option>super.outerField</option>
+            <option>outerField</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is an anonymous inner class in Java?</text>
+        <options>
+            <option>A class that has no name and is defined directly within the body of another class or method.</option>
+            <option>A class with the name "Anonymous" that cannot be inherited.</option>
+            <option>A class that can have only one method.</option>
+            <option>A class that is always static.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

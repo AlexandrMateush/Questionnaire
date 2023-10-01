@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">W czym różni się konstruktor od zwykłej metody w klasie?</text>
+        <options>
+            <option>Konstruktor zawsze zwraca wartość, metody nie.</option>
+            <option>Konstruktory nie mogą przyjmować argumentów, metody mogą.</option>
+            <option>Konstruktory mają specjalny składni i służą do inicjalizacji obiektów klasy, metody wykonują dodatkowe operacje.</option>
+            <option>Konstruktory mogą być dziedziczone, metody nie.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są główne rodzaje konstruktorów w Javie?</text>
+        <options>
+            <option>Puste, z argumentami, kopiujące.</option>
+            <option>Publiczne, prywatne, statyczne.</option>
+            <option>Konstruktory klasy, konstruktory interfejsu, konstruktory klasy wewnętrznej.</option>
+            <option>Konstruktory podklasy, konstruktory superklasy, konstruktory klasy Object.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">W czym różni się blok inicjalizacyjny od konstruktora w Javie?</text>
+        <options>
+            <option>Blok inicjalizacyjny zawsze wykonuje się przed konstruktorem.</option>
+            <option>Blok inicjalizacyjny zawsze wykonuje się po konstruktorze.</option>
+            <option>Blok inicjalizacyjny wykonuje się tylko podczas tworzenia klasy, konstruktor wykonuje się podczas tworzenia obiektu.</option>
+            <option>Blok inicjalizacyjny i konstruktor wykonują te same operacje w kolejności ich wystąpienia w kodzie.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są główne rodzaje klas wewnętrznych w Javie?</text>
+        <options>
+            <option>Wewnętrzne, zagnieżdżone, statyczne.</option>
+            <option>Lokalne, anonimowe, statyczne.</option>
+            <option>Wewnętrzne, lokalne, anonimowe.</option>
+            <option>Wewnętrzne, statyczne, funkcyjne.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest anonimowa klasa wewnętrzna w Javie?</text>
+        <options>
+            <option>Klasa, która nie ma nazwy i jest definiowana bezpośrednio w ciele innej klasy lub metody.</option>
+            <option>Klasa, która ma nazwę "Anonimowa" i nie może być dziedziczona.</option>
+            <option>Klasa, która może mieć tylko jedną metodę.</option>
+            <option>Klasa, która zawsze jest statyczna.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak utworzyć egzemplarz klasy wewnętrznej w Javie?</text>
+        <options>
+            <option>InnerClass obj = new InnerClass();</option>
+            <option>OuterClass.InnerClass obj = new OuterClass.InnerClass();</option>
+            <option>InnerClass obj = OuterClass.new InnerClass();</option>
+            <option>OuterClass obj = new OuterClass();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Do czego służą klasy wewnętrzne statyczne w Javie?</text>
+        <options>
+            <option>Klasy wewnętrzne statyczne pozwalają tworzyć instancje klasy bez tworzenia instancji klasy zewnętrznej.</option>
+            <option>Klasy wewnętrzne statyczne służą do dziedziczenia cech klasy zewnętrznej.</option>
+            <option>Klasy wewnętrzne statyczne służą do tworzenia statycznych metod.</option>
+            <option>Klasy wewnętrzne statyczne służą do ukrywania cech klasy zewnętrznej.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">W czym różni się lokalna klasa wewnętrzna od anonimowej klasy wewnętrznej w Javie?</text>
+        <options>
+            <option>Lokalna klasa wewnętrzna ma nazwę, anonimowa nie ma.</option>
+            <option>Anonimowa klasa wewnętrzna ma nazwę, lokalna nie ma.</option>
+            <option>Lokalna klasa wewnętrzna zawsze musi być statyczna, anonimowa nie musi.</option>
+            <option>Anonimowa klasa wewnętrzna zawsze musi być statyczna, lokalna nie musi.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie słowa kluczowe używane są do dostępu do pól zewnętrznej klasy w klasie wewnętrznej?</text>
+        <options>
+            <option>this.outerField</option>
+            <option>OuterClass.outerField</option>
+            <option>super.outerField</option>
+            <option>outerField</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Czym jest anonimowa klasa wewnętrzna w Javie?</text>
+        <options>
+            <option>Klasa, która nie ma nazwy i jest definiowana bezpośrednio w ciele innej klasy lub metody.</option>
+            <option>Klasa, która ma nazwę "Anonimowa" i nie może być dziedziczona.</option>
+            <option>Klasa, która może mieć tylko jedną metodę.</option>
+            <option>Klasa, która zawsze jest statyczna.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

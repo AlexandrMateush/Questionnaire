@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">How to declare and initialize an array of integers in Java?</text>
+        <options>
+            <option>int[] arr = new int[10];</option>
+            <option>array int arr = new array int (10);</option>
+            <option>int arr[10];</option>
+            <option>int arr = new int[10];</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to check if a number is even in Java using a condition?</text>
+        <options>
+            <option>if (num % 2 == 0) { /* code */ }</option>
+            <option>if (num.isEven()) { /* code */ }</option>
+            <option>if (isEven(num)) { /* code */ }</option>
+            <option>if (num / 2 == 0) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to input an integer from the console in Java?</text>
+        <options>
+            <option>int num = System.console().readInt();</option>
+            <option>int num = Console.readInt();</option>
+            <option>int num = Scanner.nextInt();</option>
+            <option>int num = readInt();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to find the maximum element in an array of integers in Java?</text>
+        <options>
+            <option>int max = findMax(array);</option>
+            <option>int max = Arrays.max(array);</option>
+            <option>int max = array.max();</option>
+            <option>int max = Arrays.stream(array).max().getAsInt();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to check if an array contains a specific element in Java?</text>
+        <options>
+            <option>if (array.contains(element)) { /* code */ }</option>
+            <option>if (array.hasElement(element)) { /* code */ }</option>
+            <option>if (element in array) { /* code */ }</option>
+            <option>if (Arrays.contains(array, element)) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which operators are used to create conditional statements in Java?</text>
+        <options>
+            <option>if, then, else</option>
+            <option>if, else if, else</option>
+            <option>when, case, otherwise</option>
+            <option>for, while, do-while</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to print text to the console using the `System.out.println` command in Java?</text>
+        <options>
+            <option>print("Hello, World!");</option>
+            <option>console.log("Hello, World!");</option>
+            <option>System.out.print("Hello, World!");</option>
+            <option>System.out.println("Hello, World!");</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to determine the length (number of elements) of an array in Java?</text>
+        <options>
+            <option>int size = array.length();</option>
+            <option>int size = array.size();</option>
+            <option>int size = array.count();</option>
+            <option>int size = array.length;</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to find the minimum element in an array of integers in Java?</text>
+        <options>
+            <option>int min = findMin(array);</option>
+            <option>int min = Arrays.min(array);</option>
+            <option>int min = array.min();</option>
+            <option>int min = Arrays.stream(array).min().getAsInt();</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How to check if a string is empty (contains no characters) in Java?</text>
+        <options>
+            <option>if (str.isEmpty()) { /* code */ }</option>
+            <option>if (str.length() == 0) { /* code */ }</option>
+            <option>if (str.equals("")) { /* code */ }</option>
+            <option>if (str.isNull()) { /* code */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

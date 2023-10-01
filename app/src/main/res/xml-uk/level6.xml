@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Чим відрізняється конструктор від звичайного методу в класі?</text>
+        <options>
+            <option>Конструктор завжди повертає значення, а методи - ні.</option>
+            <option>Конструктори не можуть приймати аргументи, методи можуть.</option>
+            <option>Конструктори мають спеціальний синтаксис і ініціалізують об'єкти класу, методи виконують додаткові операції.</option>
+            <option>Конструктори можуть бути успадковані, методи - ні.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні типи конструкторів існують в Java?</text>
+        <options>
+            <option>Публічні, приватні, статичні.</option>
+            <option>Порожні, з параметрами, копіювальні.</option>
+            <option>Конструктори класу, конструктори інтерфейсу, конструктори внутрішнього класу.</option>
+            <option>Конструктори підкласу, конструктори суперкласу, конструктори класу Object.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Чим відрізняється блок ініціалізації від конструктора в Java?</text>
+        <options>
+            <option>Блок ініціалізації завжди виконується перед конструктором.</option>
+            <option>Блок ініціалізації завжди виконується після конструктора.</option>
+            <option>Блок ініціалізації виконується лише при створенні класу, конструктор виконується при створенні об'єкта.</option>
+            <option>Блок ініціалізації та конструктор виконують однакові дії та в порядку їх визначення в коді.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які основні типи внутрішніх класів існують в Java?</text>
+        <options>
+            <option>Внутрішні, вкладені, статичні.</option>
+            <option>Локальні, анонімні, статичні.</option>
+            <option>Внутрішні, локальні, анонімні.</option>
+            <option>Внутрішні, статичні, функціональні.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке анонімний внутрішній клас в Java?</text>
+        <options>
+            <option>Клас, який не має імені та визначається безпосередньо в тілі іншого класу або методу.</option>
+            <option>Клас, який має ім'я "Anonymous" та не може бути успадкований.</option>
+            <option>Клас, який може мати лише один метод.</option>
+            <option>Клас, який завжди є статичним.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як створити екземпляр внутрішнього класу в Java?</text>
+        <options>
+            <option>InnerClass obj = new InnerClass();</option>
+            <option>OuterClass.InnerClass obj = new OuterClass.InnerClass();</option>
+            <option>InnerClass obj = OuterClass.new InnerClass();</option>
+            <option>OuterClass obj = new OuterClass();</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Для чого використовуються статичні внутрішні класи в Java?</text>
+        <options>
+            <option>Статичні внутрішні класи використовуються для створення екземплярів класу без створення екземпляра зовнішнього класу.</option>
+            <option>Статичні внутрішні класи використовуються для спадкування властивостей зовнішнього класу.</option>
+            <option>Статичні внутрішні класи використовуються для створення статичних методів.</option>
+            <option>Статичні внутрішні класи використовуються для приховування властивостей зовнішнього класу.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Чим відрізняється локальний внутрішній клас від анонімного внутрішнього класу в Java?</text>
+        <options>
+            <option>Локальний внутрішній клас має ім'я та може бути успадкований, а анонімний внутрішній клас не має імені і не може бути успадкований.</option>
+            <option>Анонімний внутрішній клас має ім'я, а локальний внутрішній клас - ні.</option>
+            <option>Локальний внутрішній клас завжди має бути статичним, а анонімний - ні.</option>
+            <option>Анонімний внутрішній клас завжди має бути статичним, а локальний - ні.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які ключові слова використовуються для доступу до полів зовнішнього класу внутрішнього класу?</text>
+        <options>
+            <option>this.outerField</option>
+            <option>OuterClass.outerField</option>
+            <option>super.outerField</option>
+            <option>outerField</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке анонімний внутрішній клас в Java?</text>
+        <options>
+            <option>Клас, який не має імені та визначається безпосередньо в тілі іншого класу або методу.</option>
+            <option>Клас, який має ім'я "Anonymous" та не може бути успадкований.</option>
+            <option>Клас, який може мати лише один метод.</option>
+            <option>Клас, який завжди є статичним.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

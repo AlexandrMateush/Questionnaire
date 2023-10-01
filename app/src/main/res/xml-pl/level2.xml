@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są podstawowe typy danych w języku Java?</text>
+        <options>
+            <option>int, float, string, boolean</option>
+            <option>byte, short, long, char</option>
+            <option>int, double, boolean, array</option>
+            <option>string, float, byte, char</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak zadeklarować zmienną przechowującą liczbę całkowitą w języku Java?</text>
+        <options>
+            <option>int x = 42;</option>
+            <option>float x = 42;</option>
+            <option>String x = "42";</option>
+            <option>boolean x = true;</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są podstawowe operatory arytmetyczne w języku Java?</text>
+        <options>
+            <option>+, -, *, /</option>
+            <option>%, ^, ++, --</option>
+            <option> |, ~, </option>
+            <option>=, ==, ===, !=</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak ustawić wartość zmiennej logicznej w języku Java?</text>
+        <options>
+            <option>true = 1;</option>
+            <option>false = 0;</option>
+            <option>boolean x = true;</option>
+            <option>bool x = 1;</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie słowa kluczowe służą do deklaracji zmiennych w języku Java?</text>
+        <options>
+            <option>var, let, const</option>
+            <option>int, string, double</option>
+            <option>declare, variable, assign</option>
+            <option>public, private, protected</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jak użyć instrukcji warunkowej if do sprawdzania warunków w języku Java?</text>
+        <options>
+            <option>if (condition) { /* kod */ }</option>
+            <option>case condition: /* kod */ break;</option>
+            <option>while (condition) { /* kod */ }</option>
+            <option>for (condition) { /* kod */ }</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie operatory służą do inkrementacji i dekrementacji zmiennej w języku Java?</text>
+        <options>
+            <option>x = x + 1; x = x - 1;</option>
+            <option>x++; x--;</option>
+            <option>x += 1; x -= 1;</option>
+            <option>x = x * 2; x = x / 2;</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie są główne typy danych do przechowywania liczb zmiennoprzecinkowych w języku Java?</text>
+        <options>
+            <option>float i int</option>
+            <option>float, double i decimal</option>
+            <option>real, double, long</option>
+            <option>int, double, char</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie słowa kluczowe służą do określenia zakresu widoczności zmiennych w języku Java?</text>
+        <options>
+            <option>public, private, protected</option>
+            <option>local, global, static</option>
+            <option>var, let, const</option>
+            <option>import, export, package</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Jakie typy danych w Java służą do reprezentowania znaków i ciągów znaków?</text>
+        <options>
+            <option>char i int</option>
+            <option>string i boolean</option>
+            <option>char i string</option>
+            <option>byte i short</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>

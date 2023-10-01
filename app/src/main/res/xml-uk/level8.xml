@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">Чому використовуються інтерфейси в мові Java?</text>
+        <options>
+            <option>Для створення об'єктів класів.</option>
+            <option>Для спадкування від батьківського класу.</option>
+            <option>Для оголошення методів, які повинні бути реалізовані класами.</option>
+            <option>Для визначення змінних структур даних.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Яка основна різниця між інтерфейсом і класом в мові Java?</text>
+        <options>
+            <option>Інтерфейс може мати конструктори, а клас - ні.</option>
+            <option>Клас може мати статичні методи, а інтерфейс - ні.</option>
+            <option>Інтерфейс може мати лише абстрактні методи, але клас може мати реалізовані методи.</option>
+            <option>Класи не можуть наслідувати інтерфейси.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як позначаються інтерфейси в мові Java?</text>
+        <options>
+            <option>За допомогою ключового слова "interface".</option>
+            <option>За допомогою ключового слова "class".</option>
+            <option>За допомогою ключового слова "implements".</option>
+            <option>За допомогою ключового слова "extends".</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Що таке перечислення (enum) в мові Java?</text>
+        <options>
+            <option>Це спеціальний вид класу, який не може мати методів.</option>
+            <option>Це спеціальна колекція об'єктів.</option>
+            <option>Це спеціальний вид інтерфейсу для реалізації перелічуваних значень.</option>
+            <option>Це спеціальний вид масиву.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як оголошуються і використовуються перечислення (enum) в мові Java?</text>
+        <options>
+            <option>За допомогою ключового слова "enum", і можна оголошувати сталі об'єкти перелічення.</option>
+            <option>За допомогою ключового слова "class", і можна оголошувати сталі об'єкти перелічення.</option>
+            <option>За допомогою ключового слова "interface", і можна оголошувати сталі об'єкти перелічення.</option>
+            <option>За допомогою ключового слова "enum", і можна оголошувати змінні об'єкти перелічення.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які переваги використання перечислень (enum) в Java?</text>
+        <options>
+            <option>Вони дозволяють додавати методи до об'єктів перелічення.</option>
+            <option>Вони забезпечують більше гнучкості в порівнянні зі звичайними класами.</option>
+            <option>Вони гарантують безпеку типів під час компіляції і можуть бути використані в switch-виразах.</option>
+            <option>Вони можуть містити будь-яку кількість значень.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як можна отримати всі значення перечислення (enum) в мові Java?</text>
+        <options>
+            <option>Використовуючи метод `values()`.</option>
+            <option>Використовуючи метод `allValues()`.</option>
+            <option>Використовуючи метод `enumerate()`.</option>
+            <option>Використовуючи метод `list()`.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Які методи можна визначити в інтерфейсі в мові Java?</text>
+        <options>
+            <option>Тільки абстрактні методи.</option>
+            <option>Тільки статичні методи.</option>
+            <option>Як абстрактні, так і статичні методи.</option>
+            <option>Тільки методи з реалізацією (дефолтні методи).</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Як клас може реалізувати більше одного інтерфейсу в Java?</text>
+        <options>
+            <option>Використовуючи ключове слово "implements" і перераховуючи всі інтерфейси через кому.</option>
+            <option>Використовуючи ключове слово "extends" і перераховуючи всі інтерфейси через кому.</option>
+            <option>Це неможливо, клас може реалізувати лише один інтерфейс.</option>
+            <option>Використовуючи ключове слово "implements" і дублюючи ім'я інтерфейсу в коді.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Чому перечислення (enum) не можуть бути розширені в мові Java?</text>
+        <options>
+            <option>Оскільки перечислення вже наслідують клас Enum і не можуть мати інших батьківських класів.</option>
+            <option>Це можливо, але розширюючий клас повинен також бути перечисленням.</option>
+            <option>Це можливо, але розширюючий клас повинен бути абстрактним.</option>
+            <option>Перечислення можуть бути розширені, але це не рекомендується через складність коду.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+</questions>

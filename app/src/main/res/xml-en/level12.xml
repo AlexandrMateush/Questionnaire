@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions xmlns:android="http://schemas.android.com/apk/res/android">
+    <question>
+        <text android:textColor="#FFFFFFFF">What is multithreading in programming?</text>
+        <options>
+            <option>It's a programming style that uses multiple threads in one process to perform tasks.</option>
+            <option>It's an approach focused on working with mathematical functions and avoiding state.</option>
+            <option>It's an approach where all variables are constant.</option>
+            <option>Multithreading doesn't exist in programming.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What benefits can be gained from using multithreading in programs?</text>
+        <options>
+            <option>Reduction in memory usage.</option>
+            <option>Increased program costs.</option>
+            <option>Increased performance and responsiveness of the program.</option>
+            <option>Increased program security.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">How do you create a new thread in the Java programming language?</text>
+        <options>
+            <option>Using the constructor of the Thread class.</option>
+            <option>Using the start() method of the Thread class.</option>
+            <option>Using the run() method of the Thread class.</option>
+            <option>Threads are created automatically in Java and do not require special creation.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the main execution states of threads in Java?</text>
+        <options>
+            <option>Active, Finished, Stopped.</option>
+            <option>Runnable, Blocked, Finished.</option>
+            <option>Created, Working, Suspended.</option>
+            <option>Threads in Java do not have execution states.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the basic principles of multithreading in the Java programming language?</text>
+        <options>
+            <option>All threads must always run concurrently.</option>
+            <option>All threads must always run sequentially.</option>
+            <option>Threads can be created and stopped at any time.</option>
+            <option>All threads always have the same execution priority.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What principles of the REST (Representational State Transfer) architecture are used in web resources?</text>
+        <options>
+            <option>Authentication and authorization.</option>
+            <option>Storing state on the server.</option>
+            <option>Using structured data.</option>
+            <option>Using stateless requests and resources.</option>
+        </options>
+        <correctOptionIndex>3</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">Which HTTP methods are used in the REST architecture to access resources?</text>
+        <options>
+            <option>GET, POST, PUT, DELETE</option>
+            <option>READ, WRITE, UPDATE, REMOVE</option>
+            <option>FETCH, MODIFY, REPLACE, ERASE</option>
+            <option>HTTP methods are not used in the REST architecture.</option>
+        </options>
+        <correctOptionIndex>0</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What protocols are commonly used for data exchange between client and server in web development?</text>
+        <options>
+            <option>FTP, SMTP, POP3</option>
+            <option>HTTP, HTTPS, WebSocket</option>
+            <option>SSH, Telnet, SNMP</option>
+            <option>ICMP, ARP, TCP</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What is multiplexing in web development?</text>
+        <options>
+            <option>It's the process of creating multiple copies of data to ensure reliability.</option>
+            <option>It's the process of sending multiple messages in a single request or response.</option>
+            <option>It's a method of protecting web applications from attacks.</option>
+            <option>Multiplexing is not used in web development.</option>
+        </options>
+        <correctOptionIndex>1</correctOptionIndex>
+    </question>
+
+    <question>
+        <text android:textColor="#FFFFFFFF">What are the fundamental principles of internet network security?</text>
+        <options>
+            <option>Complex passwords and using public Wi-Fi networks.</option>
+            <option>Prohibiting the use of antivirus software.</option>
+            <option>Regular software updates and using encrypted connections.</option>
+            <option>Using public proxy servers to bypass restrictions.</option>
+        </options>
+        <correctOptionIndex>2</correctOptionIndex>
+    </question>
+</questions>
